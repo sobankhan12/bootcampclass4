@@ -20,7 +20,7 @@ const Room = () => {
                 () => {
                     setLit(!isLit);
                 }
-            }>Toggle Light</button>
+            }>Toggle Light is on off</button>
             <button onClick={
                 () => {
                     setLit(true);
