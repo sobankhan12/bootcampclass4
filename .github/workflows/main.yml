@@ -17,4 +17,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         
         port: 22
-        script: echo "hello"
+        script: sh app.sh
